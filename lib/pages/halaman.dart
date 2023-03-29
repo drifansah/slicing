@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// ignore: camel_case_types
 class halaman extends StatelessWidget {
   const halaman({super.key});
 
@@ -107,7 +108,7 @@ class halaman extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Hello,\nDede Rifansah',
+                        'Hello,\nAdiksa Muhammad fajar',
                         style: GoogleFonts.poppins(
                           fontSize: 24,
                           color: const Color(0xff002841),
@@ -118,7 +119,7 @@ class halaman extends StatelessWidget {
                         height: 6,
                       ),
                       Text(
-                        'Jenis-jenis motor si besi tua',
+                        'Beberapa contoh pantai di Indonesia',
                         style: GoogleFonts.poppins(
                           fontSize: 14,
                           color: const Color(0xff9698A9),
@@ -127,21 +128,10 @@ class halaman extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Container(
-                    width: 76,
-                    height: 76,
-                    decoration: const BoxDecoration(
-                        image: DecorationImage(
-                            fit: BoxFit.cover,
-                            image: AssetImage(
-                              "assets/img-profil.png",
-                            ))),
-                  ),
                 ],
               ),
-              halamanutama("assets/vespa2.png", "Vespa Classic", "Motor antik"),
-              halamanutama("assets/vespa1.png", "vespa Racing",
-                  "Motor antik semi modern")
+              halamanutama("assets/pantai1.png", "Pantai Jernih", "Indah"),
+              halamanutama("assets/pantai2.png", "Pantai Tercemar", "Kotor")
             ],
           ),
         ),

@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pert3slice/pages/halaman.dart';
-import 'package:pert3slice/pages/login.dart';
+import 'package:pert3slice/pages/artikel.dart';
 import 'package:pert3slice/pages/main_menu.dart';
 
 class Getstartedpage extends StatelessWidget {

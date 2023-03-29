@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pert3slice/pages/login.dart';
+import 'package:pert3slice/pages/artikel.dart';
 
 class MainmenuPage extends StatelessWidget {
   const MainmenuPage({super.key});
@@ -132,7 +132,7 @@ class MainmenuPage extends StatelessWidget {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const login()),
+                        MaterialPageRoute(builder: (context) => const artikel()),
                       );
                     },
                     child: Container(
